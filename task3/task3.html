@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+  <style>
+      .container {
+          
+          border-bottom:2px solid indigo; 
+      }
+      img{
+          height: 200px;
+         
+      }
+      .img{
+          margin: 10px;
+          float: left;
+      }
+      h1{
+          color:indigo;
+          text-align: center;
+      }
+      p{
+          text-align: center;
+      }
+      audio{
+          width:250px;
+          height:50px;
+          margin-top:10px;
+      }
+      .audio{
+          float:left;
+          margin:20px;
+          height: 300px;
+          width: 250px;
+          border: 2px solid gray;
+          padding-bottom: 15px;
+      }
+      .audio>img{
+          width: 100%;
+      }
+      .audio> p{
+          text-align: center;
+          
+      }
+      .container-audio{
+        width:auto;
+        border-bottom:2px solid indigo; 
+      }
+      .video{
+        float:left;
+        margin:20px;
+        height: 400px;
+        width: 40%;
+        
+    }
+    .container-video{
+        margin-top:50px;
+        
+        
+    }
+    video{
+        width:50%;
+    }
+    .menubar{
+        position:sticky;
+        top:0;
+        background-color:indigo;
+        border-radius: 10px;
+       }
+       .menubar > ul li{
+           list-style: none;
+           display:inline-block;
+           padding:20px 5px;
+       }
+       .menubar ul li a{
+           text-decoration: none;
+           color:white;
+           margin:0px 20px;
+       }
+  </style>
+</head>
+<body>
+    <header class="menubar">
+        <ul>
+            <li>
+              <a href="#image">image gallery</a>
+            </li>
+            <li>
+              <a href="#audio">audio gallery</a>
+            </li>
+            <li>
+                <a href="#video">video gallery</a>
+            </li>
+           
+        </ul>
+    </header>
+
+    <div class="container" id="image">
+       <h1>Image Gallery</h1> 
+
+        <div class="img">
+           <img src="https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg">
+           <p>text</p>
+        </div>
+        <div class="img">
+            <img src="https://images.pexels.com/photos/163016/crash-test-collision-60-km-h-distraction-163016.jpeg">
+            <p>text</p>
+        </div>
+        <div class="img">
+            <img src="https://images.pexels.com/photos/4021773/pexels-photo-4021773.jpeg">
+            <p>text</p>
+        </div>
+        <div class="img">
+            <img src="https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg">
+            <p>text</p>
+         </div>
+         <div class="img">
+             <img src="https://images.pexels.com/photos/163016/crash-test-collision-60-km-h-distraction-163016.jpeg">
+             <p>text</p>
+         </div>
+         <div class="img">
+            <img src="https://images.pexels.com/photos/4021773/pexels-photo-4021773.jpeg">
+            <p>text</p>
+        </div>
+         <div class="img">
+            <img src="https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg">
+            <p>text</p>
+         </div>
+         <div class="img">
+             <img src="https://images.pexels.com/photos/163016/crash-test-collision-60-km-h-distraction-163016.jpeg">
+             <p>text</p>
+         </div>
+         
+         <div class="img">
+             <img src="https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg">
+             <p>text</p>
+          </div>
+          <div class="img">
+              <img src="https://images.pexels.com/photos/163016/crash-test-collision-60-km-h-distraction-163016.jpeg">
+              <p>text</p>
+          </div>
+          
+         
+    </div>
+
+    <div class="container-audio" id="audio">
+       <h1>Audio Gallery</h1>
+    
+        <div class="audio">
+            <img src="audio.jpg"/> 
+          <audio controls>
+              <source src="ye_watan.mp3" type="audio/mp3"> 
+          </audio>
+           <p>ye watan mere watan</p>
+        </div>
+        <div class="audio">
+            <img src="audio.jpg"/> 
+          <audio controls>
+              <source src="ye_watan.mp3" type="audio/mp3"> 
+          </audio>
+           <p>ye watan mere watan</p>
+        </div>
+        <div class="audio">
+            <img src="audio.jpg"/> 
+          <audio controls>
+              <source src="ye_watan.mp3" type="audio/mp3"> 
+          </audio>
+           <p>ye watan mere watan</p>
+        </div>
+        <div class="audio">
+            <img src="audio.jpg"/> 
+          <audio controls>
+              <source src="ye_watan.mp3" type="audio/mp3"> 
+          </audio>
+           <p>ye watan mere watan</p>
+        </div>
+        <div class="audio">
+            <img src="audio.jpg"/> 
+          <audio controls>
+              <source src="ye_watan.mp3" type="audio/mp3"> 
+          </audio>
+           <p>ye watan mere watan</p>
+        </div>
+        
+       
+    </div>
+
+    <div class="container-video" id="video">
+       <h1>Video  Gallery</h1>
+    
+        <div class="vedio">
+            <video controls>
+                <source src="../task4/bg.mp4" type="video/mp4"/>
+            </video>
+      
+        </div>
+        
+        <div class="video">
+            <iframe width="50%"  src="https://www.youtube.com/embed/v7jiFpX5SU4"></iframe>
+        </div>
+       
+    </div>
+
+</body>
+</html>

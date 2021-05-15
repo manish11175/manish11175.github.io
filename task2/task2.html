@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+    <style>
+        .menubar{
+         background-color:cornflowerblue;
+         border-radius: 10px;
+        }
+        .menubar > ul li{
+            list-style: none;
+            display:inline-block;
+            padding:20px 5px;
+        }
+        .menubar ul li a{
+            text-decoration: none;
+            color:white;
+            margin:0px 20px;
+        }
+
+        .table{
+            font-family:'PT Sans',sans-serif;
+            margin:auto;
+            margin-top: 50px;
+            text-align: center;     
+            width:80%;
+            border-collapse: collapse;
+            overflow:hidden;
+            border-radius: 15px;
+    
+        }
+        .table thead{
+            border-radius: 10px 10px 0 0;
+            
+            color:white;
+            border-radius: 10px;
+            background-color: cornflowerblue;
+        }
+        .table thead th{
+            padding:20px 5px;
+        }
+        .table tbody td{
+            padding:20px 5px;
+            color:gray;
+        }
+        .table tbody tr{
+            border-right: 1px solid #eee;
+            border-left: 1px solid #eee;
+            
+        }
+        .table tbody tr:nth-child(2n){
+            background-color:rgb(218, 215, 210);
+            
+        }
+        .table tbody tr:last-child{
+            border-bottom:1px solid #eee;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header class="menubar">
+        <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Help</a>
+            </li>
+        </ul>
+    </header>
+
+    <table class="table">
+        <thead class="tableh">
+          <tr>
+              <th>Class</th>
+              <th>Task</th>
+              <th>Task Name</th>
+              <th>Date</th>
+              <th>Link</th>
+          </tr>
+        </thead>
+
+        <tbody>
+           <tr>
+               <td>1</td>
+               <td>1</td>
+               <td>table</td>
+               <td>20-04-2021</td>
+               <td><a href="task2.html">see</a></td>
+           </tr>
+           <tr>
+            <td>2</td>
+            <td>2</td>
+            <td>Gallery</td>
+            <td>21-04-2021</td>
+            <td><a href="../task3/task3.html">see</a></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>1</td>
+            <td>video background</td>
+            <td>24-04-2021</td>
+            <td><a href="../task4/vediobg.html">see</a></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>2</td>
+            <td>Ancientor Tree</td>
+            <td>24-04-2021</td>
+            <td><a href="../task3/ancientor.html">see</a></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>1</td>
+            <td>login form</td>
+            <td>27-04-2021</td>
+            <td><a href="../task6/login.html">see</a></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>2</td>
+            <td>calculator</td>
+            <td>27-04-2021</td>
+            <td><a href="../task5/calculator.html">see</a></td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>1</td>
+            <td>change bg using dom</td>
+            <td>12-05-2021</td>
+            <td><a href="../class10/assignment/randombg.html">see</a></td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>2</td>
+            <td>clock using dom</td>
+            <td>12-05-2021</td>
+            <td><a href="../class10/assignment/clock.html">see</a></td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>1</td>
+            <td>=> function, map ,filter, reduce,find</td>
+            <td>13-05-2021</td>
+            <td><a href="../class9/object.html">see</a></td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>1</td>
+            <td>fetch  random user api</td>
+            <td>15-05-2021</td>
+            <td><a href="../class11/ranUser.html">see</a></td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>2</td>
+            <td>fetch  random joke api</td>
+            <td>15-05-2021</td>
+            <td><a href="../class11/chucknorris.html">see</a></td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
