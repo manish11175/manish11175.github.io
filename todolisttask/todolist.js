@@ -14,6 +14,7 @@ let id = 0;
 const createList = (task) => {
   const taskList = document.getElementById("task_list");
   const li = document.createElement("li");
+  li.classList.add("list")
   li.setAttribute("id", id);
   id += 1;
   const para = document.createElement("span");
@@ -77,7 +78,7 @@ taskList.addEventListener("click", (e) => {
     (e.target.classList.contains("delete") ||
       e.target.classList.contains("fa-trash-o"))
   ) {
-    const li = e.target.parentElement;
+    const li =  e.target.closest(".list");
     taskList.removeChild(li);
   }
 });
@@ -94,7 +95,11 @@ editTaskList.addEventListener("click", (e) => {
     const editForm = document.getElementById("edit-form");
     editForm.classList.remove("hide");
     editForm.classList.add("show");
-    const li = e.target.parentElement;
+    const lis = e.target
+
+    const li=lis.closest(".list");
+  
+
 
   
 
