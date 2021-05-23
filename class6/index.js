@@ -73,7 +73,7 @@ console.log(h,i);
 // }
 // minus();
 
-// // multiply function using iiFF 
+ // multiply function using iiFF 
 
 // (function(){
 //     console.log("multiply");
