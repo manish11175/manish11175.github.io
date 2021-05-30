@@ -28,7 +28,7 @@
 
 //context
 
-// reference of objects in which it calling
+// reference of objects in which it cally
 
 
 // var User=function(name,age){

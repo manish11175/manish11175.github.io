@@ -1,6 +1,5 @@
 "use strict";
 
-
 // const student={
 //     firstName:"akash",
 //     lastName:"bdjksf",
@@ -28,12 +27,10 @@
 // const student2=JSON.parse(JSON.stringify(student));
 // console.log(student2);
 
-
 //window level scope
 //   age=34
 
 //loacl scope
-
 
 //global
 // var data=4;
@@ -45,8 +42,6 @@
 // fun1();
 // console.log(data);
 
-
-
 // if(true){
 //     var name1="nama";
 // }
@@ -54,9 +49,8 @@
 // var fun;
 // fun();
 //  fun=function(){
-//     console.log("sadnkmnsadb");    
+//     console.log("sadnkmnsadb");
 // }
-
 
 // fun1();
 // function fun1(){
@@ -72,12 +66,10 @@
 // }
 // funNum();
 
-
 // for(var i=0;i<10;i++){
 //     console.log(i,"num");  //var i will huisted;
 // }
 // console.log("outer",i);
-
 
 // for(let i=0;i<10;i++){
 //     console.log(i,"num");
@@ -96,13 +88,16 @@
 // console.log(age);
 // const i;
 
-// let i=9;
+//  TDZ=>temporary death zone
 
-// function fun3(){
-//   const i=9;
-//   console.log(i);
-// }
+let i = 9;
 
+function fun3() {
+  console.log(i);
+  
+  let i = 9;
+  console.log(i);
+}
 
 // fun3();
 
@@ -114,7 +109,7 @@
 // var i=10;//both
 // var i=5;
 
-const i=6;
+// const i = 6;
 
 // const i=10;
 // const i=5;
